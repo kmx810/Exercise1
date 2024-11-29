@@ -18,13 +18,13 @@
             throw new ArgumentException("Tablica nie może być pusta.");
         }
 
-        double sum = 0;
+        double summm = 0;
         foreach (int number in numbers)
         {
-            sum += number;
+            summm += number;
         }
 
-        return sum / numbers.Length;
+        return summm / numbers.Length;
     }
 
     public static int FindMaxValue(int[] numbers)
